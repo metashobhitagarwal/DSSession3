@@ -13,12 +13,12 @@ public class MyBinaryTreeMain {
 		char ch = 0;
 		do {
 			int counter = 0;
-			System.out.println("Operation -------");
+			System.out.println("Operations : ");
 			for (String opt : operation) {
 				System.out.println(++counter + "." + opt);
 			}
-			System.out.println(++counter + ".Back");
-			System.out.println("Enter Choice--");
+			System.out.println(++counter + ".Exit");
+			System.out.println("Enter Choice : ");
 			int choice = getChoice(counter);
 			switch (choice) {
 			case 1:
